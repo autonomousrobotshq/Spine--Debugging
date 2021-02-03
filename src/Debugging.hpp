@@ -37,6 +37,7 @@ int16_t FreeRamLeft();
 void PrintFreeRamLeft();
 #endif
 
+#undef assert
 void assert(bool condition, const String &call, int linenumber);
 
 } // namespace DBG
